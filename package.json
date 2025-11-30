@@ -1,0 +1,44 @@
+{
+  "name": "text-guard",
+  "version": "1.0.0",
+  "description": "A rule-based, AI-less text toxicity and content checker for chat and comment moderation.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",   
+      "require": "./lib/index.js"   
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmzatayab/text-guard.git"
+  },
+  "homepage": "https://github.com/hmzatayab",
+  "scripts": {
+  "build": "tsc",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "ts-node test-run.ts" 
+},
+  "keywords": [
+    "toxicity",
+    "moderation",
+    "filter",
+    "rules",
+    "badwords",
+    "censor",
+    "profanity",
+    "spam",
+    "typescript",
+    "chat"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.25",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

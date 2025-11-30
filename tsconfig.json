@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",             /* Target JavaScript version */
+    "module": "ESNext",           /* Module system (Node.js/JS compatibility) */
+    "rootDir": "./src",             /* Source files kahan hain */
+    "outDir": "./lib",              /* Compiled JavaScript kahan save karna hai */
+    "moduleResolution": "node",
+    "esModuleInterop": true,        /* For better compatibility with module imports */
+    "forceConsistentCasingInFileNames": true, 
+    "strict": true,                 /* Saari strict type checking enable karein */
+    "skipLibCheck": true,
+    "declaration": true             /* .d.ts files create karein (TypeScript support ke liye zaroori) */
+  },
+  "include": ["src/**/*"]
+}
