@@ -6,6 +6,8 @@
 [![Minified Size](https://img.shields.io/bundlephobia/minzip/text-guard)](https://bundlephobia.com/package/text-guard)
 [![NPM Downloads](https://img.shields.io/npm/dt/text-guard)](https://www.npmjs.com/package/text-guard)
 
+![WhatsApp Image 2025-12-03 at 22 46 11_8f183aab](https://github.com/user-attachments/assets/1bb3913f-b547-4d3e-bb0f-01f844b71592)
+
 `text-guard` is a powerful, dependency-free, and highly customizable text analysis and moderation utility written in TypeScript. It helps you quickly detect toxicity, spam, and banned content in user input (like chat messages or comments) before it reaches your server or database.
 
 ## ✨ Features
